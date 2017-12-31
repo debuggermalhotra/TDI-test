@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TDI-test</title>
+
+
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+</head>
+<body>
+
+<header>
+
+		<div class="jumbotron">
+
+			<div class="container">
+               <a href="https://travis-ci.org/debuggermalhotra/TDI-test" ><img src="https://travis-ci.org/debuggermalhotra/TDI-test.svg?branch=master"></a>
+				<h1>Welcome!</h1>
+                <br>
+                <h2>This test is part of The Data Incubator interview process.</h2>
+                <br>
+				<h3>Please upload an image by choosing the file and then clicking the button below. Thanks!</h3>
+
+		</div>
+	</header>
+
+
+
+    <div class="container">
+        <form name="image-upload" action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" accept="/image/*" name="img"  >
+            <br>
+            <button type="submit" value="Upload" class="btn btn-primary btn-lg">Upload</button>
+        </form>
+    </div>
+<br>
+<footer>
+    <div class="jumbotron">
+        <div class="container">
+            <h3>Important Links:</h3>
+            <a href= "https://travis-ci.org/debuggermalhotra/TDI-test "><h3>Travis-CI</h3></a>
+            <a href="https://github.com/debuggermalhotra/TDI-test" ><h3>GitHub repo of this test</h3></a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
