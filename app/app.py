@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from werkzeug.utils import secure_filename
 import os
-from flask_uploads import *
+
 
 app = Flask(__name__)
 
